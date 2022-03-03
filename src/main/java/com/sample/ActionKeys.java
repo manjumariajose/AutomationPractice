@@ -22,6 +22,7 @@ public class ActionKeys {
 		a.sendKeys(username, Keys.SHIFT).keyDown(Keys.SHIFT).sendKeys("manju").keyUp(Keys.SHIFT).sendKeys("maria")
 				.build().perform();
 		a.click(username).keyDown(Keys.COMMAND).sendKeys(Keys.DELETE).build().perform();
+		//driver.manage().timeouts().implicitlyWait(time, unit)
 	}
 
 }
