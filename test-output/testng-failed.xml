@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Framework.HRMTest">
+      <class name="com.Framework.ExtentReportTest1">
         <methods>
-          <include name="orangeHrLink"/>
-          <include name="GoogleLink"/>
+          <include name="loginPageHRM"/>
+          <include name="begin"/>
+          <include name="finsh"/>
         </methods>
-      </class> <!-- com.Framework.HRMTest -->
+      </class> <!-- com.Framework.ExtentReportTest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10645" started-at="2022-03-02T19:33:17 CST" finished-at="2022-03-02T19:33:27 CST">
+  <suite name="Default suite" duration-ms="8489" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:48:01 CST">
     <groups>
-      <group name="smoke">
-        <method signature="HRMTest.orangeHrLink()[pri:0, instance:com.Framework.HRMTest@4493d195]" name="orangeHrLink" class="com.Framework.HRMTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="10645" started-at="2022-03-02T19:33:17 CST" finished-at="2022-03-02T19:33:27 CST">
-      <class name="com.Framework.GoogleTest">
-        <test-method status="PASS" signature="GoogleLink()[pri:0, instance:com.Framework.GoogleTest@17579e0f]" name="GoogleLink" duration-ms="4127" started-at="2022-03-02T19:33:17 CST" finished-at="2022-03-02T19:33:21 CST">
+    <test name="Default test" duration-ms="8489" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:48:01 CST">
+      <class name="com.Framework.ExtentReportTest1">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.Framework.ExtentReportTest1@6b9651f3]" name="begin" is-config="true" duration-ms="117" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:47:52 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoogleLink -->
-      </class> <!-- com.Framework.GoogleTest -->
-      <class name="com.Framework.HRMTest">
-        <test-method status="PASS" signature="GoogleLink()[pri:0, instance:com.Framework.HRMTest@4493d195]" name="GoogleLink" duration-ms="3338" started-at="2022-03-02T19:33:21 CST" finished-at="2022-03-02T19:33:24 CST">
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="loginPageHRM()[pri:0, instance:com.Framework.ExtentReportTest1@6b9651f3]" name="loginPageHRM" duration-ms="8451" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:48:01 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoogleLink -->
-        <test-method status="PASS" signature="orangeHrLink()[pri:0, instance:com.Framework.HRMTest@4493d195]" name="orangeHrLink" duration-ms="3134" started-at="2022-03-02T19:33:24 CST" depends-on-methods="com.Framework.GoogleTest.GoogleLink" finished-at="2022-03-02T19:33:27 CST">
+        </test-method> <!-- loginPageHRM -->
+        <test-method status="PASS" signature="finsh()[pri:0, instance:com.Framework.ExtentReportTest1@6b9651f3]" name="finsh" is-config="true" duration-ms="288" started-at="2022-03-05T10:48:01 CST" finished-at="2022-03-05T10:48:01 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orangeHrLink -->
-      </class> <!-- com.Framework.HRMTest -->
+        </test-method> <!-- finsh -->
+      </class> <!-- com.Framework.ExtentReportTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

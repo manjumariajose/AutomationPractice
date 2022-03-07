@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="11" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21543" started-at="2022-03-04T16:25:30Z" finished-at="2022-03-04T16:25:51Z">
+    <groups>
+      <group name="regression">
+        <method signature="AlertTest.alertHandling()[pri:0, instance:com.Framework.AlertTest@4ae82894]" name="alertHandling" class="com.Framework.AlertTest"/>
+        <method signature="DependsOnMehodsTest.red()[pri:0, instance:com.Framework.DependsOnMehodsTest@4516af24]" name="red" class="com.Framework.DependsOnMehodsTest"/>
+        <method signature="PriorityAttributeTest.red()[pri:2, instance:com.Framework.PriorityAttributeTest@587c290d]" name="red" class="com.Framework.PriorityAttributeTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="21543" started-at="2022-03-04T16:25:30Z" finished-at="2022-03-04T16:25:51Z">
+      <class name="com.Framework.AlertTest">
+        <test-method status="PASS" signature="alertHandling()[pri:0, instance:com.Framework.AlertTest@4ae82894]" name="alertHandling" duration-ms="21512" started-at="2022-03-04T16:25:30Z" finished-at="2022-03-04T16:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertHandling -->
+      </class> <!-- com.Framework.AlertTest -->
+      <class name="com.Framework.DependsOnMehodsTest">
+        <test-method status="PASS" signature="blue()[pri:0, instance:com.Framework.DependsOnMehodsTest@4516af24]" name="blue" duration-ms="5" started-at="2022-03-04T16:25:30Z" finished-at="2022-03-04T16:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blue -->
+        <test-method status="PASS" signature="pink()[pri:0, instance:com.Framework.DependsOnMehodsTest@4516af24]" name="pink" duration-ms="0" started-at="2022-03-04T16:25:30Z" depends-on-methods="com.Framework.DependsOnMehodsTest.blue" finished-at="2022-03-04T16:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pink -->
+        <test-method status="PASS" signature="red()[pri:0, instance:com.Framework.DependsOnMehodsTest@4516af24]" name="red" duration-ms="0" started-at="2022-03-04T16:25:30Z" depends-on-methods="com.Framework.DependsOnMehodsTest.pink" finished-at="2022-03-04T16:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- red -->
+      </class> <!-- com.Framework.DependsOnMehodsTest -->
+      <class name="com.Framework.PriorityAttributeTest">
+        <test-method status="PASS" signature="red()[pri:2, instance:com.Framework.PriorityAttributeTest@587c290d]" name="red" duration-ms="1" started-at="2022-03-04T16:25:51Z" finished-at="2022-03-04T16:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- red -->
+      </class> <!-- com.Framework.PriorityAttributeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
