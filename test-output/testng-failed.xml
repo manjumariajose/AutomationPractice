@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Framework.ExtentReportTest1">
+      <class name="com.Framework.ExeclDataParactice2">
         <methods>
-          <include name="loginPageHRM"/>
-          <include name="begin"/>
-          <include name="finsh"/>
+          <include name="orangeHrmLogin" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.Framework.ExtentReportTest1 -->
+      </class> <!-- com.Framework.ExeclDataParactice2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -9,11 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">21,543</td><td>regression</td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,884</td><td>regression</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Framework.AlertTest</td><td><a href="#m0">alertHandling</a></td><td rowspan="1">1646411130417</td><td rowspan="1">21512</td></tr><tr class="passedodd"><td rowspan="3">com.Framework.DependsOnMehodsTest</td><td><a href="#m1">blue</a></td><td rowspan="1">1646411130417</td><td rowspan="1">5</td></tr><tr class="passedodd"><td><a href="#m2">pink</a></td><td rowspan="1">1646411130424</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m3">red</a></td><td rowspan="1">1646411130425</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="1">com.Framework.PriorityAttributeTest</td><td><a href="#m4">red</a></td><td rowspan="1">1646411151934</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Framework.AlertTest</td><td><a href="#m0">alertHandling</a></td><td rowspan="1">1646841347011</td><td rowspan="1">18851</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.Framework.DependsOnMehodsTest</td><td><a href="#m1">blue</a></td><td rowspan="1">1646841347011</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m2">pink</a></td><td rowspan="1">1646841347019</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">red</a></td><td rowspan="1">1646841347020</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">com.Framework.PriorityAttributeTest</td><td><a href="#m4">red</a></td><td rowspan="1">1646841365869</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.Framework.AlertTest#alertHandling</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.Framework.AlertTest#alertHandling</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.51)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Sumiths-MBP-2.attlocal.net&apos;, ip: &apos;2600:1700:a000:16a0:0:0:0:42%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/t8/d0ppgv212yn...}, goog:chromeOptions: {debuggerAddress: localhost:55692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca684ce757dadec9cf2381222919ae9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.sendKeys(RemoteWebDriver.java:963)
+	at com.Framework.AlertTest.alertHandling(AlertTest.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.Framework.DependsOnMehodsTest#blue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.Framework.DependsOnMehodsTest#pink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.Framework.DependsOnMehodsTest#red</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

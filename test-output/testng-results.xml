@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8489" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:48:01 CST">
+  <suite name="Default suite" duration-ms="19173" started-at="2022-03-09T19:14:28 CST" finished-at="2022-03-09T19:14:47 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8489" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:48:01 CST">
-      <class name="com.Framework.ExtentReportTest1">
-        <test-method status="PASS" signature="begin()[pri:0, instance:com.Framework.ExtentReportTest1@6b9651f3]" name="begin" is-config="true" duration-ms="117" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:47:52 CST">
+    <test name="Default test" duration-ms="19173" started-at="2022-03-09T19:14:28 CST" finished-at="2022-03-09T19:14:47 CST">
+      <class name="com.Framework.ExeclDataParactice2">
+        <test-method status="PASS" signature="orangeHrmLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Framework.ExeclDataParactice2@2a742aa2]" name="orangeHrmLogin" duration-ms="9298" started-at="2022-03-09T19:14:29 CST" data-provider="delhi" finished-at="2022-03-09T19:14:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- begin -->
-        <test-method status="PASS" signature="loginPageHRM()[pri:0, instance:com.Framework.ExtentReportTest1@6b9651f3]" name="loginPageHRM" duration-ms="8451" started-at="2022-03-05T10:47:52 CST" finished-at="2022-03-05T10:48:01 CST">
+        </test-method> <!-- orangeHrmLogin -->
+        <test-method status="PASS" signature="orangeHrmLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Framework.ExeclDataParactice2@2a742aa2]" name="orangeHrmLogin" duration-ms="4610" started-at="2022-03-09T19:14:38 CST" data-provider="delhi" finished-at="2022-03-09T19:14:43 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manju123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageHRM -->
-        <test-method status="PASS" signature="finsh()[pri:0, instance:com.Framework.ExtentReportTest1@6b9651f3]" name="finsh" is-config="true" duration-ms="288" started-at="2022-03-05T10:48:01 CST" finished-at="2022-03-05T10:48:01 CST">
+        </test-method> <!-- orangeHrmLogin -->
+        <test-method status="PASS" signature="orangeHrmLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Framework.ExeclDataParactice2@2a742aa2]" name="orangeHrmLogin" duration-ms="4531" started-at="2022-03-09T19:14:43 CST" data-provider="delhi" finished-at="2022-03-09T19:14:47 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maria123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finsh -->
-      </class> <!-- com.Framework.ExtentReportTest1 -->
+        </test-method> <!-- orangeHrmLogin -->
+      </class> <!-- com.Framework.ExeclDataParactice2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
